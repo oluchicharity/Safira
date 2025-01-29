@@ -20,7 +20,7 @@ MetaMask wallet for blockchain interaction.
 A blockchain test network setup (e.g., Sepolia for Ethereum-based contracts).
 Installation
 Clone the repository:
-git clone https://github.com/yourusername/safira.git
+git clone https://github.com/oluchicharity/safira.git
 cd safira
 Install dependencies:
 npm install
