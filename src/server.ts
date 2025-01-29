@@ -4,15 +4,17 @@ import cors from "cors";
 import { ConnectOptions } from "mongoose";
 import dotenv from "dotenv";
 import bodyParser from "body-parser";
+import userRouter from "./Routes/userRoutes";
 
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 2001;
+const port = process.env.PORT || 2002;
 
 app.use(cors());
 app.use(express.json());
 app.use(bodyParser.json());
+app.use('/users/api/auth/',userRouter );
 
 app.get("/", (req: Request, res: Response) => {
   res.send("Welcome to SAFIRA!! (SAFE & ALERT)");
