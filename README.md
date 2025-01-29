@@ -30,11 +30,11 @@ Configure the environment:
 Edit the .env file to set up your blockchain connection, AI settings, and camera configurations.
 Start the local server:
 npm start
-Access the app at http://localhost:3000.
+Access the app at http://localhost:2002.
 Running Tests
 To run the tests, use:
+Postman or hoppscotch
 
-npm test
 Contributing
 
 We encourage open-source contributions to Safira! Here's how you can help:
